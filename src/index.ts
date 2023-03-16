@@ -3,7 +3,7 @@ import { Calculator } from "calculator-ts-agustina-fernandez";
 const calculator = new Calculator();
 
 let input = require('prompt-sync')();
-let userOption : number;
+
 let finished : boolean = false;
 let number1: number;
 let number2: number;
@@ -15,10 +15,9 @@ do{
     console.log("Please enter an operator to do the math calculation: +,  - , * ,  /,  "); 
     
 
-    // userOption = input();
+    
     operator = input();
-    // switch(Number(userOption)) {
-        switch(operator) {
+    switch(operator) {
         case "+":
             
             console.log("Please Introduce two numbers");

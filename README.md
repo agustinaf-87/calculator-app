@@ -1,14 +1,19 @@
 # Calculator app
-##Getting Started
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+## Prerequisites
+This is an example of how to list things you need to use the app and how to install them.
+* npm    
+`npm install`   
+this will create the node_modules folder    
 
-##Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
+* install the library calculator    
+`npm i calculator-ts-agustina-fernandez`    
+This instruction will give you acces to the library   
 
-####npm
-`npm install`
-`npm i calculator-ts-agustina-fernandez`
-##Installation
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
+## Run the app    
+* To run the app you must run the build:     
+`npm run build`     
+* Go to the src file in order to activate the app and then run the command node index:    
+`cd src`    
+`node index`    
 
-# calculator-app
+

@@ -3,7 +3,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const calculator_ts_agustina_fernandez_1 = require("calculator-ts-agustina-fernandez");
 const calculator = new calculator_ts_agustina_fernandez_1.Calculator();
 let input = require('prompt-sync')();
-let userOption;
 let finished = false;
 let number1;
 let number2;
@@ -11,9 +10,7 @@ let operator;
 do {
     console.log("welcome to my calculator app, please choose one calculation:");
     console.log("Please enter an operator to do the math calculation: +,  - , * ,  /,  ");
-    // userOption = input();
     operator = input();
-    // switch(Number(userOption)) {
     switch (operator) {
         case "+":
             console.log("Please Introduce two numbers");
