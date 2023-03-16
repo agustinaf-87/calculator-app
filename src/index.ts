@@ -7,20 +7,19 @@ let userOption : number;
 let finished : boolean = false;
 let number1: number;
 let number2: number;
-enum Calculations {
-	Addition = 1,
-	Substraction,
-	Multiplication,
-	Division
-}
+let operator: string;
+
 
 do{
-    console.log("welcome to my calculator app, please choose one calculation:  ")
-    Calculations;
+    console.log("welcome to my calculator app, please choose one calculation:");
+    console.log("Please enter an operator to do the math calculation: +,  - , * ,  /,  "); 
+    
 
-    userOption = input();
-    switch(Number(userOption)) {
-        case 1:
+    // userOption = input();
+    operator = input();
+    // switch(Number(userOption)) {
+        switch(operator) {
+        case "+":
             
             console.log("Please Introduce two numbers");
             number1 = input();
@@ -28,7 +27,7 @@ do{
             console.log('The result is: ',calculator.addition(Number(number1), Number(number2)));
             break;
 
-        case 2:
+        case "-":
             
             console.log("Please Introduce two numbers");
             number1 = input();
@@ -36,7 +35,7 @@ do{
             console.log('The result is: ',calculator.substraction(Number(number1), Number(number2)));
             break;
 
-        case 3:
+        case "*":
             
             console.log("Please Introduce two numbers");
             number1 = input();
@@ -44,7 +43,7 @@ do{
             console.log('The result is: ',calculator.multiplication(Number(number1), Number(number2)));
             break;
 
-        case 4:
+        case "/":
             
             console.log("Please Introduce two numbers");
             number1 = input();
@@ -52,7 +51,7 @@ do{
             console.log('The result is: ',calculator.division(Number(number1), Number(number2)));
             break;
 
-        case 0:
+        case " ":
             
             console.log("Tanhk you for using my calculator app!");
             finished = true;
