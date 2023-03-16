@@ -1,0 +1,21 @@
+{
+  "name": "provelib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "libcalculatorts": "^1.0.3",
+    "prompt-sync": "^4.2.0"
+  }
+}
